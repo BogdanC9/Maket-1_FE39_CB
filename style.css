@@ -1,0 +1,127 @@
+@font-face {
+    font-family:'poppins';
+    src: url(./fonts/Poppins-Medium.ttf);
+}
+
+body{
+
+    background-color:#F9F0EE;
+ 
+}
+
+.container{
+    width: 801px;
+    height: 351px;
+    display: flex;
+    font-family: 'poppins';
+    margin: 150px auto;
+    border-radius: 15px;
+    background-color: #fff;
+  
+    
+   
+}
+
+.maket{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 32px;
+    margin-bottom: 40px; 
+    margin-top: 31px;
+}
+
+.description{
+    font-weight: 700;
+    font-size:  15px;
+    color: #371030;
+    
+
+
+}
+
+.name__tel{
+    display: flex;
+}
+
+input[type=text__name] {
+    width: 144px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid #371030;
+    margin-right: 32px;
+
+}
+input[type=text__name]::placeholder{
+    font-size: 16px;
+    color:#371030 ;
+}
+
+
+input[type=tel]{
+    width: 144px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid #371030;
+}
+
+input[type=tel]::placeholder{
+    font-size: 16px;
+    color:#371030 ;
+}
+
+
+input[type=email]{
+    width: 324px;
+    height: 20px;
+    border-top: 21px;
+    border: none;
+    border-bottom: 1px solid #371030;
+    margin-top: 20px;
+    
+
+}
+
+input[type=email]::placeholder{
+    font-size: 16px;
+    color: #371030;
+}
+
+input[type=text]{
+    width: 324px;
+    height: 20px;
+    border-top: 21px;
+    border: none;
+    border-bottom: 1px solid #371030;
+  
+    
+    margin-top: 20px;
+    
+}
+
+input[type=text]::placeholder{
+    font-size: 16px;
+    color: #371030;
+}
+
+input[type=submit]{
+    width: 324px;
+    height: 55px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 0px 3px #DE8E98 ;
+    background-color:#FFB0BA ;
+    margin-top: 23px;
+    border: none; 
+}
+
+.send{
+    font-weight: 900;
+    font-family: 'poppins';
+    font-size: 16px;
+    color:#9A3C48 ;
+}
+
+img{
+    border-radius: 0px 15px 15px 0px;
+}
